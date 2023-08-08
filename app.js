@@ -9,7 +9,7 @@ const port= process.env.PORT || '8000';
 
 
 a.get('/0708202191786', (req,res) => {
-    res.send('hello');
+    res.sendFile(__dirname+'172613002_0pk3toseldstteglnlriyuql revised.pdf');
 });
 
 a.listen(port, () => {
