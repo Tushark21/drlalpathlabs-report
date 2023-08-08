@@ -3,7 +3,7 @@ const c = require('cors');
 
 let a = e();
 a.use(e.json());
-a.use(cors());
+a.use(c());
 
 const port= process.env.PORT || '8000';
 
