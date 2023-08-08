@@ -5,7 +5,7 @@ let a = express ();
 a.use(express.json());
 a.use(cors());
 
-const port='8000';
+const port= process.env.PORT || '8000';
 
 
 a.get('/0708202191786', (req,res) => {
